@@ -33,6 +33,6 @@ function chooseFeedback(option, onLeaveFeedback) {
 }
 
 FeedbackOptions.propTypes = {
-  options: PropTypes.array.isRequired,
-  onLeaveFeedback: PropTypes.func.isRequired,
+  options: PropTypes.arrayOf(PropTypes.oneOf(['good', 'neutral', 'bad'])),
+  onLeaveFeedback: PropTypes.arrayOf(PropTypes.func),
 };
