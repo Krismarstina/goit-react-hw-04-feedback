@@ -8,7 +8,7 @@ export const FeedbackList = styled.ul`
 `;
 
 export const FeedbackButton = styled.button`
-  background-color: aliceblue;
+  background-color: blue;
   border: 1px solid blue;
   border-radius: 4px;
   width: 60px;
